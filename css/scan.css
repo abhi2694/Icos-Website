@@ -1,0 +1,209 @@
+/* Mobile Animation */
+
+.icos-mobile {
+  cursor: default;
+  line-height: 1.5;
+  tab-size: 4;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  font-size: inherit;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  z-index: 101;
+  padding: 100px 0;
+}
+
+.icos-mobile-container {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 87.5vw;
+}
+
+.icos-mobile-progress.progress-a {
+  height: 90%;
+  top: 5%;
+  background-color: red;
+  opacity: 0;
+}
+
+.icos-mobile-progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1vw;
+}
+
+.icos-mobile-copy_wrap {
+  width: 47%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.icos-mobile-section_title {
+  color: #4592af;
+  font-size: 1.5vw;
+}
+
+.icos-mobile * {
+  outline: 0;
+}
+
+.text_crop {
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.icos-mobile-content_wrap {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 80px;
+  position: relative;
+}
+
+.icos-mobile-steps_list {
+  padding-left: 8.66761%;
+  width: 30.65909%;
+  z-index: 999;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+}
+
+.icos-mobile * {
+  outline: 0;
+}
+
+.icos-mobile .step_item {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.icos-mobile .step_item .pulse {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #4592af;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  box-sizing: content-box;
+}
+
+.icos-mobile .step_item .pulse:hover {
+  transform: scale(1.15);
+}
+
+.icos-mobile .step_item .step_name {
+  margin-left: 12px;
+}
+
+.icos-mobile * {
+  outline: 0;
+}
+
+.typo_header {
+  display: inline-block;
+}
+
+.icos-mobile .step_separator {
+  display: block;
+  width: 1px;
+  height: 50px;
+  margin: 25px 0 25px 10px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.phone-img {
+  margin-left: 5%;
+  transition: transform 3s ease;
+  transform: scale(1);
+}
+
+#pulse1 {
+  background-color: #4592af;
+}
+
+.icos-mobile-steps_content {
+  width: 34.6%;
+  padding-right: 4.7%;
+  padding-left: 6.3%;
+  z-index: 999;
+}
+
+.icos-mobile-steps_content .wrap {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+@media (min-width: 940px) {
+  .icos-mobile-steps_name {
+    display: none;
+  }
+  .icos-mobile-steps_content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .typo_header-variant_3 {
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  .typo_header-variant_7 .text_crop {
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 939px) {
+  .icos-mobile-steps_list {
+    padding-left: 0;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 20px 0;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+  .icos-mobile_steps_list .step_item .pulse {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #b4b4b4;
+    margin: 0 14px;
+  }
+}
+
+@media (max-width: 639px) {
+  .phone-img {
+    max-height: 70vh;
+  }
+  .typo_header-variant_2 .text_crop {
+    line-height: 1.4;
+  }
+}

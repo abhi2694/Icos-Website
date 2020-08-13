@@ -1,0 +1,265 @@
+@media screen and (min-height: 740px) {
+  .scooterimg {
+    position: relative;
+    top: 9.5%;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .popup {
+    font-size: 40px;
+    width: 35vw;
+  }
+  .androidios {
+    text-align: center;
+    display: block;
+  }
+  .buttonup {
+    width: 18vw;
+    margin-top: 5px;
+  }
+  .buttonup:hover {
+    width: 19vw;
+    height: 7vh;
+  }
+  .scooterimg {
+    position: relative;
+    top: 8%;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 1005px) {
+  .buttonsgrp {
+    display: block;
+  }
+}
+@media screen and (max-width: 960px) {
+  .rideit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .rideit h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .steps-panel {
+    position: relative;
+    left: 3%;
+  }
+  .imgshift {
+    position: relative;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sometext {
+    font-size: 80px;
+  }
+  .popup {
+    position: relative;
+    top: 7%;
+    font-size: 30px;
+  }
+  .buttonup {
+    width: 20vw;
+    margin-top: 5px;
+  }
+  .buttonup:hover {
+    width: 21vw;
+    height: 7vh;
+  }
+  .imgsize {
+    height: 350px;
+  }
+  .scooterimg {
+    position: relative;
+    left: 1%;
+    top: 15%;
+  }
+  .imgshift {
+    position: relative;
+    left: 2%;
+  }
+  .textshift {
+    position: relative;
+    left: 5%;
+    margin-left: 5%;
+  }
+
+  .lovedUs {
+    position: relative;
+    top: 20%;
+    color: #4592af;
+    animation: colorchange 2s infinite;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .trackImage {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .sometext {
+    font-size: 60px;
+  }
+  .imgsize {
+    height: 320px;
+  }
+  .scooterimg {
+    position: relative;
+
+    top: 19%;
+  }
+  .popup {
+    position: relative;
+    top: 10%;
+  }
+  .buttonup {
+    width: 20vw;
+    height: 5vh;
+    margin-top: 5px;
+  }
+  .buttonup:hover {
+    width: 21vw;
+    height: 6vh;
+  }
+  .textshift {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .steps-panel {
+    display: none;
+  }
+  .loginbar {
+    display: inline;
+  }
+  .textshift {
+    position: relative;
+    left: 20%;
+    font-size: 40px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popup {
+    width: 40vw;
+  }
+  .androidios {
+    width: 25vw;
+  }
+  .buttonup {
+    width: 30vw;
+    height: 5vh;
+    margin-top: 5px;
+  }
+  .buttonup:hover {
+    width: 31vw;
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .countit {
+    display: block;
+    position: relative;
+    top: 5%;
+  }
+  .text-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .textshift {
+    display: none;
+  }
+  .temp-site {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .sometext {
+    font-size: 55px;
+  }
+  .gifsize {
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .sometext {
+    position: relative;
+    bottom: 5%;
+    font-size: 50px;
+  }
+  .imgsize {
+    height: 280px;
+  }
+  .scooterimg {
+    position: relative;
+
+    top: 24.5%;
+  }
+  .gifsize {
+    height: 140px;
+  }
+  .footads {
+    display: block;
+
+    margin: 0 auto;
+    position: relative;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sometext {
+    font-size: 40px;
+  }
+  .imgsize {
+    height: 250px;
+  }
+  .popup {
+    position: relative;
+    left: 50%;
+    top: 10%;
+    font-size: 25px;
+    width: 45vw;
+  }
+  .scooterimg {
+    position: relative;
+    top: 24%;
+  }
+  .navbar {
+    display: block;
+  }
+  .nav {
+    height: 100px;
+  }
+  .gifsize {
+    height: 120px;
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #4592af;
+  }
+  100% {
+    color: white;
+  }
+}

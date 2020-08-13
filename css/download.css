@@ -1,0 +1,42 @@
+/* Download App */
+#download {
+    font-family: "Raleway", sans-serif;
+    background-color: #000000;
+    padding: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    height: 70px;
+  }
+  
+  #download .download-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  #download .download-container .download-heading h1 {
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    margin-top: 7%;
+    letter-spacing: 1px;
+  }
+  
+  #download .download-container .download-buttons {
+    margin-left: 30%;
+  }
+  
+  .download-btn {
+    width: 35%;
+    height: 40%;
+    margin: 5%;
+    display: inline-block;
+  }
+  
+  .download-btn:hover {
+    cursor: pointer;
+  }
